@@ -1,17 +1,35 @@
-@import "import-styles.css";
-body {
-  text-align: center;
-}
+/** Universal CSS Selector**/
+/* * {
+  margin: 0;
+  padding: 0;
+  color: #ff0000;
+}*/
 
-h1 {
-  font-size: 72px;
-  color: fff;
+
+/********
+HOME PAGE
+*********/
+
+/* Hexidecimal for a shade of gray */
+body {
+  color: #878787;
+  margin: 0;
 }
 
 header {
   background-color: orange;
 }
 
-p {
+h1 {
+  font-size: 90px;
+  color: white;
+}
+
+h2 {
+  font-size: 53px;
+}
+/* Hexidecimal is a lighter shade of black*/
+h3 {
   font-size: 20px;
+  color: #48525c;
 }

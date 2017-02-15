@@ -59,3 +59,30 @@ h3 {
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
 }
+
+/**Pseudo-Classes**/
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+/**User interaction Pseudo-Classes**/
+a:hover {
+  color: forestgreen;
+}
+
+/**Active Pseudo-Class**/
+a:active {
+  color: lightcoral;
+}
+
+/**Focus Pseudo-Class**/
+/**Used for user input or interaction like forms**/
+a:focus {
+  color: white;
+  background-color: orange;
+}

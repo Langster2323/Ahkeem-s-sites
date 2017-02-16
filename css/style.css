@@ -41,21 +41,21 @@ h3 {
 /**Pseudo-Classes**/
 
 a:link {
-  color: orange;
+  color: #ffa500; /* Orange */
 }
 
 a:visited {
-  color: lightblue;
+  color: #add8e6; /* lightblue */
 }
 
 /**User interaction Pseudo-Classes**/
 a:hover {
-  color: forestgreen;
+  color: #228b22; /* Hexidecimal value of forestgreen */
 }
 
 /**Active Pseudo-Class**/
 a:active {
-  color: lightcoral;
+  color: #f08080; /* lightcoral */
 }
 
 /**Focus Pseudo-Class**/
@@ -76,14 +76,14 @@ a:active {
 /* Class Selectors ----------------- */
 
 .main-header {
-  background-color: orange;
+  background-color: #ffa500; /* Orange */
 }
 
 .title {
-  color: white;
+  color: #ffffff;
   /*rem isn't affected by inheritance
  rem units are relative to the root
- elemant of the page*/
+ element of the page*/
   font-size: 1.625rem; /* 26px/16px*/
 }
 

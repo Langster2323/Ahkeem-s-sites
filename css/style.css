@@ -25,7 +25,7 @@ body {
 }*/
 
 h1 {
-  font-size: 90px;
+  font-size: 5.625rem; /* 90px/16px*/
   color: white;
 }
 
@@ -77,12 +77,14 @@ a:active {
 
 .main-header {
   background-color: orange;
-  font-size: 2em;
 }
 
 .title {
   color: white;
-  font-size: 1.625em; /* 26px/16px*/
+  /*rem isn't affected by inheritance
+ rem units are relative to the root
+ elemant of the page*/
+  font-size: 1.625rem; /* 26px/16px*/
 }
 
 .primary-content, .secondary-content {

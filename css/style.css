@@ -10,28 +10,19 @@
 HOME PAGE
 *********/
 
-/* Hexidecimal for a shade of gray */
+/* Type Selectors*/
 body {
-  color: #878787;
+  color: #878787; /* Hexidecimal for a shade of gray */
   margin: 0;
-  font-size: 150%;
-}
-
-.main-header {
-  background-color: orange;
-}
-
-.title {
-  color: white;
-  font-size: 26px;
+  font-size: 1em; /*1em is equal to 16px */
 }
 
 /*Descendant selector*/
-ol li {
+/*ol li {
   background-color: tomato;
   color: white;
   margin-bottom: 5px;
-}
+}*/
 
 h1 {
   font-size: 90px;
@@ -45,20 +36,6 @@ h2 {
 h3 {
   font-size: 20px;
   color: #48525c;
-}
-
-.primary-content {
-  text-align: center;
-}
-
-.t-border {
-  border-top: 2px solid lightgrey;
-}
-
-#main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: solid 10px orange;
 }
 
 /**Pseudo-Classes**/
@@ -83,7 +60,39 @@ a:active {
 
 /**Focus Pseudo-Class**/
 /**Used for user input or interaction like forms**/
-a:focus {
+/*a:focus {
   color: white;
   background-color: orange;
+}*/
+
+/* ID Selectors -------------------- */
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px orange;
+}
+
+/* Class Selectors ----------------- */
+
+.main-header {
+  background-color: orange;
+  font-size: 2em;
+}
+
+.title {
+  color: white;
+  font-size: 1.625em; /* 26px/16px*/
+}
+
+.primary-content, .secondary-content {
+  width: 60%;
+}
+
+.primary-content {
+  text-align: center;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey; /* Top border styles */
 }

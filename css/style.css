@@ -31,10 +31,14 @@ h1 {
   us to set the opacity of a color
   via the alpha channel*/
   color: rgba(255, 255, 255, .5); /* white */
+  text-transform: capitalize;
+  font-weight: normal;
 }
 
 h2 {
-  font-size: 53px;
+  font-size: 3.3125em;
+  text-decoration: underline;
+  font-weight: normal;
 }
 /* Hexidecimal is a lighter shade of black*/
 h3 {
@@ -47,6 +51,7 @@ h3 {
 a:link {
   /* 255 is white, 0 is black */
   color: rgb(255, 169, 73); /* Lightorange */
+  text-decoration: none;
 }
 
 a:visited {
@@ -97,7 +102,7 @@ a:active {
   width: 60%;
 }
 
-.primary-content {
+.primary-content, .main-header {
   text-align: center;
 }
 

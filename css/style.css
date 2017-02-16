@@ -26,7 +26,11 @@ body {
 
 h1 {
   font-size: 5.625rem; /* 90px/16px*/
-  color: white;
+  /* The RGBa color function
+  extends the RGB model by allowing
+  us to set the opacity of a color
+  via the alpha channel*/
+  color: rgba(255, 255, 255, .5); /* white */
 }
 
 h2 {
@@ -41,7 +45,8 @@ h3 {
 /**Pseudo-Classes**/
 
 a:link {
-  color: #ffa500; /* Orange */
+  /* 255 is white, 0 is black */
+  color: rgb(255, 169, 73); /* Lightorange */
 }
 
 a:visited {
@@ -50,7 +55,8 @@ a:visited {
 
 /**User interaction Pseudo-Classes**/
 a:hover {
-  color: #228b22; /* Hexidecimal value of forestgreen */
+  /* a is a alpha value */
+  color: rgba(255, 169, 73, .4); /* Hexidecimal value of forestgreen */
 }
 
 /**Active Pseudo-Class**/
@@ -70,13 +76,13 @@ a:active {
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: solid 10px orange;
+  border-bottom: solid 10px #ffa949;
 }
 
 /* Class Selectors ----------------- */
 
 .main-header {
-  background-color: #ffa500; /* Orange */
+  background-color: #ffa949; /* Lightorange */
 }
 
 .title {

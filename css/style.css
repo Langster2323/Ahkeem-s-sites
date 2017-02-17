@@ -79,13 +79,13 @@ a:active {
 
 /* ID Selectors -------------------- */
 
-#main-footer {
+.main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px #ffa949;
 }
 
-/* Class Selectors ----------------- */
+/* Main Styles ----------------- */
 
 .main-header {
   background-color: #ffa949; /* Lightorange */

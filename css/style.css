@@ -95,6 +95,11 @@ a:active {
   width: 60%;
 }
 
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6; 
+}
+
 .primary-content, .main-header, .main-footer {
   text-align: center;
 }

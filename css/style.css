@@ -14,9 +14,7 @@ HOME PAGE
 body {
   color: #878787; /* Hexidecimal for a shade of gray */
   margin: 0;
-  font-size: 1em; /*1em is equal to 16px */
-  /*Font stack*/
-  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font: 1em/1.5 "Helvetica Neue",Helvetica, Arial, sans-serif;
 }
 
 /*Descendant selector*/
@@ -33,8 +31,9 @@ h1 {
   us to set the opacity of a color
   via the alpha channel*/
   color: rgba(255, 255, 255, .5); /* white */
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: normal;
+  line-height: 1.3;
 }
 
 h2 {

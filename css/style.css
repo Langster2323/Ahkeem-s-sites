@@ -77,14 +77,6 @@ a:active {
   background-color: orange;
 }*/
 
-/* ID Selectors -------------------- */
-
-.main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: solid 10px #ffa949;
-}
-
 /* Main Styles ----------------- */
 
 .main-header {
@@ -103,8 +95,14 @@ a:active {
   width: 60%;
 }
 
-.primary-content, .main-header {
+.primary-content, .main-header, .main-footer {
   text-align: center;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px #ffa949;
 }
 
 .t-border {

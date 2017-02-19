@@ -91,13 +91,9 @@ a:active {
   font-size: 1.625rem; /* 26px/16px*/
 }
 
-.primary-content, .secondary-content {
-  width: 60%;
-}
-
 .intro {
   font-size: 1.25em; /* 20px/16px */
-  line-height: 1.6; 
+  line-height: 1.6;
 }
 
 .primary-content, .main-header, .main-footer {
@@ -112,4 +108,11 @@ a:active {
 
 .t-border {
   border-top: 2px solid lightgrey; /* Top border styles */
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content,
+.secondary-content {
+  width: 60%;
 }

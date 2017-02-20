@@ -45,9 +45,10 @@ h2 {
 }
 /* Hexidecimal is a lighter shade of black*/
 h3 {
-  font-size: 20px;
+  font-size: 1.25em; /*20px/16px*/
   color: #48525c;
   line-height: 1.2;
+  margin-bottom: 1.7em; /*34px/20px*/
 }
 
 /**Pseudo-Classes**/
@@ -118,6 +119,7 @@ a:active {
 .primary-content,
 .secondary-content {
   width: 60%;
+  margin: auto;
 }
 
 .wildlife {

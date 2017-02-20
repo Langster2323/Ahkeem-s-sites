@@ -51,6 +51,15 @@ h3 {
   margin-bottom: 1.7em; /*34px/20px*/
 }
 
+/*
+li {
+  display: inline-block;
+  padding: 0 12px;
+  border-right: solid 1px;
+  margin: 80px 0;
+}
+*/
+
 /**Pseudo-Classes**/
 
 a:link {
@@ -103,6 +112,15 @@ a:active {
 .primary-content, .main-header, .main-footer {
   text-align: center;
 }
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
 
 .main-footer {
   padding-top: 60px;

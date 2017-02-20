@@ -37,14 +37,17 @@ h1 {
 }
 
 h2 {
-  font-size: 3.3125em;
+  font-size: 3.3125em; /*53px/16px*/
   text-decoration: underline;
   font-weight: normal;
+  line-height: 1.1;
+  margin-bottom: .5em; /*26px*/
 }
 /* Hexidecimal is a lighter shade of black*/
 h3 {
   font-size: 20px;
   color: #48525c;
+  line-height: 1.2;
 }
 
 /**Pseudo-Classes**/
@@ -128,4 +131,5 @@ a:active {
 */
   /*Border properties*/
   border-top: 10px solid #ffa949;
+  margin: 105px 0 60px;
 }

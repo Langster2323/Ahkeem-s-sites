@@ -116,3 +116,16 @@ a:active {
 .secondary-content {
   width: 60%;
 }
+
+.wildlife {
+  color: white;
+  background-color: #434a52;
+  padding: 18% 24%;
+/*
+  border-width: 10px 20px;
+  border-style: solid dotted;
+  border-color: red #ffa949 blue green;
+*/
+  /*Border properties*/
+  border-top: 10px solid #ffa949;
+}

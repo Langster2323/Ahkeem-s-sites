@@ -93,7 +93,10 @@ a:active {
 /* Main Styles ----------------- */
 
 .main-header {
-  background-color: #ffa949; /* Lightorange */
+  background-color: #ffa949; /*Lightorange*/
+  padding-top: 170px;
+  height: 850px;
+  box-sizing: border-box;
 }
 
 .title {
@@ -112,6 +115,16 @@ a:active {
 .primary-content, .main-header, .main-footer {
   text-align: center;
 }
+
+.primary-content {
+	padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  bor
 
 .callout {
   font-size: 1.25em;
@@ -136,7 +149,10 @@ a:active {
 
 .primary-content,
 .secondary-content {
-  width: 60%;
+  width: 960px;
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: auto;
 }
 
@@ -152,4 +168,8 @@ a:active {
   /*Border properties*/
   border-top: 10px solid #ffa949;
   margin: 105px 0 60px;
+}
+
+.arrow {
+  width: 50px;
 }

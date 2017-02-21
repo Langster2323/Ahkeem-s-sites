@@ -56,6 +56,11 @@ h3 {
   margin-bottom: 1.7em; /*34px/20px*/
 }
 
+img {
+  max-width: 100%;
+}
+
+
 /*
 li {
   display: inline-block;

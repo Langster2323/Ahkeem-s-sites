@@ -136,7 +136,7 @@ a:active {
 .secondary-content {
 	padding-top: 80px;
 	padding-bottom: 70px;
-  bor
+  border-bottom: 2px solid #dfe2e6;
 
 .callout {
   font-size: 1.25em;
@@ -184,4 +184,19 @@ a:active {
 
 .arrow {
   width: 50px;
+}
+
+/* floated Columns ------------------ */
+
+.resorts,
+.tips {
+  width: 46.5%;
+}
+
+.tips {
+  float: right;
+}
+
+.resorts {
+  float: left;
 }

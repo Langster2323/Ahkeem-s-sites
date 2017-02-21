@@ -11,6 +11,11 @@ HOME PAGE
 *********/
 
 /* Type Selectors*/
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #878787; /* Hexidecimal for a shade of gray */
   margin: 0;
@@ -96,7 +101,6 @@ a:active {
   background-color: #ffa949; /*Lightorange*/
   padding-top: 170px;
   height: 850px;
-  box-sizing: border-box;
 }
 
 .title {
@@ -149,11 +153,11 @@ a:active {
 
 .primary-content,
 .secondary-content {
-  width: 960px;
-  box-sizing: border-box;
+  width: 75%;
   padding-left: 50px;
   padding-right: 50px;
   margin: auto;
+  max-width: 960px;
 }
 
 .wildlife {

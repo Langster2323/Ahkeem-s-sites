@@ -61,6 +61,16 @@ img {
   margin-bottom: 20px;
 }
 
+ul,
+ol {
+  margin-left: 30px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
 
 /*
 li {
@@ -137,7 +147,6 @@ a:active {
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
-  overflow: auto;
 }
 
 .callout {
@@ -201,4 +210,13 @@ a:active {
 
 .resorts {
   float: left;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  /*clears any collasped space to both sides of the container*/
+  clear: both;
 }

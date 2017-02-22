@@ -130,11 +130,13 @@ a:active {
 .main-header {
   padding-top: 170px;
   height: 850px;
-  /*color, img, background repeat, position, size*/
-  background: #ffa949 url('../img/mountains.jpg') no-repeat center;
+  /*Layering Background images*/
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent ),
+              #ffa949 url('../img/mountains.jpg') no-repeat center;
+
   background-size: cover;
 }
-
 .title {
   color: #ffffff;
   /*rem isn't affected by inheritance

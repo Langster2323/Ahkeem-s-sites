@@ -262,8 +262,9 @@ a:active {
 }
 
 /* Media Queries -------------------- */
+/*Examples*/
 /*all type is already determined*/
-@media (max-width: 960px) {
+/*@media (max-width: 960px) {
   body {
     background: royalblue;
   }
@@ -282,4 +283,4 @@ a:active {
   p {
     color: white;
   }
-}
+}*/

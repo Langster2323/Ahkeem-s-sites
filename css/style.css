@@ -260,3 +260,26 @@ a:active {
   /*clears any collasped space to both sides of the container*/
   clear: both;
 }
+
+/* Media Queries -------------------- */
+/*all type is already determined*/
+@media (max-width: 960px) {
+  body {
+    background: royalblue;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    background: darkred;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 700px) {
+  body {
+    background: seagreen;
+  }
+  p {
+    color: white;
+  }
+}

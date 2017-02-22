@@ -10,8 +10,17 @@
 HOME PAGE
 *********/
 
-/* Type Selectors*/
+/* Web Fonts -------------------- */
 
+@font-face {
+  font-family: 'abolition Regular';
+    src: url('../fonts/abolition-regular-webfont.eot');
+    src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+/* Base Styles -------------------- */
 * {
   box-sizing: border-box;
 }
@@ -29,6 +38,11 @@ body {
   margin-bottom: 5px;
 }*/
 
+h1,
+h2 {
+  font-family: 'Abolition Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 h1 {
   font-size: 5.625rem; /* 90px/16px*/
   /* The RGBa color function
@@ -40,7 +54,7 @@ h1 {
   font-weight: normal;
   line-height: 1.3;
   /* horizantal vertical blur color*/
-text-shadow: 0 1px 0 #ccc,
+  text-shadow: 0 1px 0 #ccc,
              0 2px 0 #c9c9c9,
              0 3px 0 #bbb,
              0 4px 0 #b9b9b9,
@@ -52,6 +66,7 @@ text-shadow: 0 1px 0 #ccc,
              0 5px 10px rgba(0,0,0,.25),
              0 10px 10px rgba(0,0,0,.2),
              0 20px 20px rgba(0,0,0,.15);
+  margin: 12px 0 0;
 }
 
 h2 {
@@ -143,6 +158,10 @@ a:active {
  rem units are relative to the root
  element of the page*/
   font-size: 1.625rem; /* 26px/16px*/
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
 }
 
 .intro {

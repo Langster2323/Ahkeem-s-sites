@@ -285,6 +285,19 @@ a:active {
   }
 }*/
 
+/* Media Queries -------------------- */
+/*all type is already determined*/
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 90%;
+  }
+   .wildlife {
+     padding: 10% 12%;
+     margin: 50px 0 20px;
+  }
+}
+
 @media (max-width: 768px) {
    .primary-content,
    .secondary-content {

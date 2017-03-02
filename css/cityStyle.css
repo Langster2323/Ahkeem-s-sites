@@ -1,7 +1,14 @@
 /* =================================
   Base Element Styles
 ==================================== */
-/*Adding body as the wrapper*/
+/*This property prevents any padding
+in border width values from expanding and
+possibly breaking layout containers when adding
+more content to the page.*/
+* {
+  box-sizing: border-box;
+}
+
 body {
 	line-height: 1.6;
 	color: #3a3a3a;
@@ -26,13 +33,10 @@ a {
 /* ---- Layout Containers ---- */
 
 .container {
-    /*The width is preventing the layout
-  from stretchin too wide*/
-  width: 70%;
-  /*Setting the left and right margins to auto
-  centers the wrapper*/
-  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
+
 .main-header {
 	background: #3acec2;
 }
@@ -43,4 +47,21 @@ a {
 	background: #d9e4ea;
 }
 
-/* ---- Page Elements ---- */
+/* =================================
+  Media Queries
+==================================== */
+
+/*Mobile first approach*/
+@media (min-width: 769px) {
+  .container {
+    /*The width is preventing the layout
+  from stretchin too wide*/
+  width: 70%;
+  /*So that the layout container does not get
+  any wider than 1,000px in larger screens*/
+  max-width: 1000px;
+    /*Setting the left and right margins to auto
+  centers the wrapper*/
+  margin: 0 auto;
+  }
+}

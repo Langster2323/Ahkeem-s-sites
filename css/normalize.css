@@ -459,3 +459,18 @@ template {
 [hidden] {
   display: none;
 }
+
+/* Lists
+   ========================================================================== */
+
+/**
+ * Remove default list styles, margins and padding.
+ */
+
+/*Forcing browsers to support this css rule*/
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

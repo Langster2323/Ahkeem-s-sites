@@ -58,6 +58,16 @@ a {
 
 /*Mobile first approach*/
 @media (min-width: 769px) {
+
+  .wrap {
+  /*vh = viewport height and forcing the footer
+  to the bottom of the page.*/
+  /*calc is a function*/
+  /*Footer will now stick at the bottom of the page*/
+  min-height: calc(100vh - 89px);
+}
+	
+
   .container {
     /*The width is preventing the layout
   from stretchin too wide*/

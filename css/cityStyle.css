@@ -25,7 +25,7 @@ a {
 
 /* ---- Layout Containers ---- */
 
-.wrapper {
+.container {
     /*The width is preventing the layout
   from stretchin too wide*/
   width: 70%;
@@ -38,6 +38,7 @@ a {
 }
 
 .main-footer {
+  text-align: center;
 	padding: 2em 0;
 	background: #d9e4ea;
 }

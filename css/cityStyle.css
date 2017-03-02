@@ -16,15 +16,23 @@ a {
   Base Layout Styles
 ==================================== */
 
+/* ---- Navigation ---- */
+
+.name {
+  margin: 0;
+}
+
+
 /* ---- Layout Containers ---- */
 
-/*The width is preventing the layout
-from stretchin too wide*/
-width: 70%;
-/*Setting the left and right margins to auto
-centers the wrapper*/
-margin: 0 auto;
-
+.wrapper {
+    /*The width is preventing the layout
+  from stretchin too wide*/
+  width: 70%;
+  /*Setting the left and right margins to auto
+  centers the wrapper*/
+  margin: 0 auto;
+}
 .main-header {
 	background: #3acec2;
 }

@@ -84,10 +84,11 @@ a {
 	background: #d9e4ea;
 }
 
-/*Inline elements only accept the left and right padding values not the top or bottom*/
+/*These links are now block level elements and accept top to bottom paddings*/
 .name a,
 .main-nav a {
   padding: 10px 15px;
+	display: block;
 }
 
 /* =================================

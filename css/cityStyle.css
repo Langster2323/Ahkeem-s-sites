@@ -84,6 +84,12 @@ a {
 	background: #d9e4ea;
 }
 
+/*Inline elements only accept the left and right padding values not the top or bottom*/
+.name a,
+.main-nav a {
+  padding: 10px 15px;
+}
+
 /* =================================
   Media Queries
 ==================================== */
@@ -111,4 +117,15 @@ a {
   centers the wrapper*/
   margin: 0 auto;
   }
+
+	.name,
+.main-nav,
+.main-nav li {
+  display: inline;
+}
+
+.name {
+  width: 240px;
+  margin: 50px;
+}
 }

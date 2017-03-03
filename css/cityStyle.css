@@ -99,38 +99,48 @@ a {
 /*Mobile first approach*/
 @media (min-width: 769px) {
 
-  .wrap {
-  /*vh = viewport height and forcing the footer
-  to the bottom of the page.*/
-  /*calc is a function*/
-  /*Footer will now stick at the bottom of the page*/
-  min-height: calc(100vh - 89px);
-}
+	  .wrap {
+	  /*vh = viewport height and forcing the footer
+	  to the bottom of the page.*/
+	  /*calc is a function*/
+	  /*Footer will now stick at the bottom of the page*/
+	  min-height: calc(100vh - 89px);
+	}
 
 
-  .container {
-    /*The width is preventing the layout
-  from stretchin too wide*/
-  width: 70%;
-  /*So that the layout container does not get
-  any wider than 1,000px in larger screens*/
-  max-width: 1000px;
-    /*Setting the left and right margins to auto
-  centers the wrapper*/
-  margin: 0 auto;
-  }
+	  .container {
+	    /*The width is preventing the layout
+	  from stretchin too wide*/
+	  width: 70%;
+	  /*So that the layout container does not get
+	  any wider than 1,000px in larger screens*/
+	  max-width: 1000px;
+	    /*Setting the left and right margins to auto
+	  centers the wrapper*/
+	  margin: 0 auto;
+	  }
 
-	.name,
-.main-nav li {
-  display: inline;
-}
+		.name,
+		.main-nav li {
+		  display: inline;
+		}
 
-.name {
-  width: 240px;
-}
+		.name {
+		  width: 240px;
+		}
 
-.main-nav li {
-	margin-right: -6px;
-}
+		.main-nav li {
+			margin-right: -6px;
+		}
+
+		.col {
+		display: inline-block;
+		width: 50%;
+		background: rgba(217, 228, 234, .5);
+		margin-right: -4px;
+		vertical-align: top;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 
 }

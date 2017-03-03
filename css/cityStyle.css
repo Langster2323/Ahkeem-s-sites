@@ -72,6 +72,7 @@ a {
 }
 
 .main-header {
+	text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #3acec2;
@@ -120,13 +121,11 @@ a {
   }
 
 	.name,
-.main-nav,
 .main-nav li {
   display: inline;
 }
 
 .name {
   width: 240px;
-  margin: 50px;
 }
 }

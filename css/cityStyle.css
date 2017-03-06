@@ -164,4 +164,15 @@ a {
 		border: solid 1px #d9e4ea;
 	}
 
+	/*when the clearfix concept is applied
+to a non floatinf element, like the after puseudo element
+it moves the element below all floated elements.
+Preventing it from collapsing*/
+.clearfix::after {
+	content: "";
+	display: table;
+/*This property clears any collapse floats on both side of the container*/
+	clear: both;
+}
+
 }

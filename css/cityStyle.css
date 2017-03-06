@@ -125,15 +125,11 @@ a {
 		  display: inline;
 		}
 
-		.name {
-		  width: 240px;
-		}
-
 		.main-nav li {
 			margin-right: -6px;
 		}
 
-		.col {
+		/*.col {
 			display: inline-block;
 			width: 50%;
 			background: rgba(217, 228, 234, .5);
@@ -141,7 +137,7 @@ a {
 			vertical-align: top;
 			padding-left: 1em;
 			padding-right: 1em;
-	}
+	}*/
 
 	.main-nav {
 		float: right;
@@ -152,27 +148,39 @@ a {
 		margin-left: 12px;
 	}
 
-	.name {
-		float: left;
-	}
+		/* ---- Columns ---- */
 
-	.feat-img {
-		width: 300px;
-		float: left;
-		margin: 5px 25px 25px 0;
-		padding: 10px;
-		border: solid 1px #d9e4ea;
-	}
+		.col {
+			float: right;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
 
-	/*when the clearfix concept is applied
-to a non floatinf element, like the after puseudo element
-it moves the element below all floated elements.
-Preventing it from collapsing*/
-.clearfix::after {
-	content: "";
-	display: table;
-/*This property clears any collapse floats on both side of the container*/
-	clear: both;
-}
+		.primary {
+			width: 60%;
+		}
+
+		.secondary {
+			width: 40%;
+		}
+
+		.feat-img {
+			width: 300px;
+			float: left;
+			margin: 5px 25px 25px 0;
+			padding: 10px;
+			border: solid 1px #d9e4ea;
+		}
+
+		/*when the clearfix concept is applied
+	to a non floatinf element, like the after puseudo element
+	it moves the element below all floated elements.
+	Preventing it from collapsing*/
+	.clearfix::after {
+		content: "";
+		display: table;
+	/*This property clears any collapse floats on both side of the container*/
+		clear: both;
+	}
 
 }

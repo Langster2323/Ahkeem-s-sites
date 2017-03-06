@@ -134,13 +134,26 @@ a {
 		}
 
 		.col {
-		display: inline-block;
-		width: 50%;
-		background: rgba(217, 228, 234, .5);
-		margin-right: -4px;
-		vertical-align: top;
-		padding-left: 1em;
-		padding-right: 1em;
+			display: inline-block;
+			width: 50%;
+			background: rgba(217, 228, 234, .5);
+			margin-right: -4px;
+			vertical-align: top;
+			padding-left: 1em;
+			padding-right: 1em;
+	}
+
+	.main-nav {
+		float: right;
+}
+
+	.main-nav li {
+		float: left;
+		margin-left: 12px;
+	}
+
+	.name {
+		float: left;
 	}
 
 	.feat-img {

@@ -42,6 +42,10 @@ img {
 figure {
 	margin: 0;
 	line-height: 0;
+	/*Figure is a parent element
+	to figcaption. So I set figure
+	to the relative position.*/
+	position:relative;
 }
 
 figcaption {
@@ -50,6 +54,13 @@ figcaption {
 	color: #fff;
 	padding: 1em;
 	background: rgba(19,43,102, .85);
+
+	position:absolute;
+	/*Bottom of the parent element
+	and fits 100% within the img itself*/
+	bottom: 0;
+	width: 100%;
+}
 }
 
 

@@ -35,6 +35,23 @@ a {
 	text-decoration: none;
 }
 
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+	line-height: 0;
+}
+
+figcaption {
+	font-size: .9em;
+	line-height: 1.5;
+	color: #fff;
+	padding: 1em;
+	background: rgba(19,43,102, .85);
+}
+
 
 /* =================================
   Base Layout Styles
@@ -96,7 +113,10 @@ a {
   Media Queries
 ==================================== */
 
-/*Mobile first approach*/
+/*Mobile first approach,
+anything larger the 769px
+these styles and rules will
+be applied.*/
 @media (min-width: 769px) {
 
 	  .wrap {
@@ -111,7 +131,7 @@ a {
 	  .container {
 	    /*The width is preventing the layout
 	  from stretchin too wide*/
-	  width: 70%;
+	  width: 90%;
 	  /*So that the layout container does not get
 	  any wider than 1,000px in larger screens*/
 	  max-width: 1000px;
@@ -119,6 +139,11 @@ a {
 	  centers the wrapper*/
 	  margin: 0 auto;
 	  }
+
+		.name,
+		.col {
+			float: left;
+		}
 
 		.name,
 		.main-nav li {
@@ -144,33 +169,36 @@ a {
 }
 
 	.main-nav li {
-		float: left;
-		margin-left: 12px;
+		display: inline-block;;
+		margin-left: 15px;
 	}
 
 		/* ---- Columns ---- */
 
-		.col {
+		/*.col {
 			float: right;
 			padding-left: 1em;
 			padding-right: 1em;
-		}
+		}*/
 
-		.primary {
-			width: 60%;
-		}
-
+		.primary,
 		.secondary {
-			width: 40%;
+			width: 50%;
 		}
 
-		.feat-img {
+		/*.feat-img {
 			width: 300px;
 			float: left;
 			margin: 5px 25px 25px 0;
 			padding: 10px;
 			border: solid 1px #d9e4ea;
-		}
+		}*/
+
+		.tagline {
+		font-size: 1.4em;
+	}
+
+			/* ---- Float clearfix ---- */
 
 		/*when the clearfix concept is applied
 	to a non floatinf element, like the after puseudo element
@@ -181,6 +209,24 @@ a {
 		display: table;
 	/*This property clears any collapse floats on both side of the container*/
 		clear: both;
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
+
+	.primary {
+		width: 40%;
+	}
+
+	.secondary,
+	.tertiary {
+		width: 30%;
 	}
 
 }

@@ -130,6 +130,21 @@ these styles and rules will
 be applied.*/
 @media (min-width: 769px) {
 
+		body {
+			padding-top: 68px;
+		}
+
+		.main-header {
+		/*Fixed positioning is always
+		relative to the browser's viewport*/
+			position: fixed;
+			background: #fff;
+			box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+			width:100%;
+			top: 0;
+	}
+
+
 	  .wrap {
 	  /*vh = viewport height and forcing the footer
 	  to the bottom of the page.*/

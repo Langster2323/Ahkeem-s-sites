@@ -56,7 +56,7 @@ figcaption {
 	background: rgba(19,43,102, .85);
 
 	position:absolute;
-	/*Bottom of the parent element
+	/*Positioning offsets: Bottom of the parent element
 	and fits 100% within the img itself*/
 	bottom: 0;
 	width: 100%;

@@ -1,4 +1,4 @@
-I'm just practicing  my HTML and CSS skill set and tools.
+Goal: I will be converting these projects into functional interactive websites! I'd even like to add ReactJS application to one or two of my sites.
 
 https://docs.webplatform.org/wiki/tutorials/understanding-css-units
 

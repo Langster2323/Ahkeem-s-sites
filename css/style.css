@@ -49,7 +49,7 @@ h1 {
   extends the RGB model by allowing
   us to set the opacity of a color
   via the alpha channel*/
-  color: rgba(255, 255, 255, .5); /* white */
+  color: rgba(255, 0, 0, 1); /* white */
   text-transform: uppercase;
   font-weight: normal;
   line-height: 1.3;

@@ -146,7 +146,7 @@ a:active {
   padding-top: 170px;
   height: 850px;
   /*Layering Background images*/
-  background: linear-gradient(#ffa949, transparent 90%),
+  background: linear-gradient(#993924, transparent 90%),
               linear-gradient(0deg, #fff, transparent ),
               #ffa949 url('../img/mountains.jpg') no-repeat center;
 

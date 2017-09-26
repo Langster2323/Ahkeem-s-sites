@@ -64,18 +64,21 @@ article {
   background-color: yellow;
   border-radius: 7px;
   border-style: solid;
+  padding: 10px;
 }
 
 nav {
   background-color: red;
   border-radius: 7px;
   border-style: solid;
+  padding: 10px;
 }
 
 aside {
   background-color: blue;
   border-radius: 7px;
   border-style: solid;
+  padding: 10px;
 }
 
 .nav {

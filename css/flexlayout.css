@@ -18,10 +18,13 @@ Flexbox Layout
 
 .primary-content {
   display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
+
 @media all and (min-width: 640px) {
-  .header, .nav {
+  .header, .nav, .primary-content {
     flex-direction: row;
   }
 }
@@ -55,6 +58,12 @@ body {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.primary-content {
+  background-color: yellow;
+  border-radius: 7px;
+  border-style: solid;
 }
 
 .nav {

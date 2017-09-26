@@ -16,6 +16,10 @@ Flexbox Layout
   justify-content: space-around;
 }
 
+.primary-content {
+  display: flex;
+}
+
 @media all and (min-width: 640px) {
   .header, .nav {
     flex-direction: row;

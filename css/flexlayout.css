@@ -2,7 +2,7 @@
 Flexbox Layout
 *******************************/
 
-.header, .nav {
+.header, .nav, .primary-content {
   display: flex;
   flex-direction: column;
 }
@@ -11,17 +11,10 @@ Flexbox Layout
   justify-content: space-between;
 }
 
-.nav {
+.nav, .primary-content {
   flex: 1;
   justify-content: space-around;
 }
-
-.primary-content {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
 
 @media all and (min-width: 640px) {
   .header, .nav, .primary-content {
@@ -30,7 +23,7 @@ Flexbox Layout
 }
 
 @media all and (min-width: 1030px) {
-  .nav {
+  .nav, .primary-content {
     flex: none;
   }
 }
@@ -65,6 +58,10 @@ article {
   border-radius: 7px;
   border-style: solid;
   padding: 10px;
+  margin: 4px;
+  order: 2;
+  flex: 3 1 60%;
+  min-height: 800px;
 }
 
 nav {
@@ -72,6 +69,9 @@ nav {
   border-radius: 7px;
   border-style: solid;
   padding: 10px;
+  margin: 4px;
+  order: 4;
+  flex: 1 6 20%;
 }
 
 aside {
@@ -79,6 +79,8 @@ aside {
   border-radius: 7px;
   border-style: solid;
   padding: 10px;
+  margin: 4px;
+  flex: 1 6 20%;
 }
 
 .nav {

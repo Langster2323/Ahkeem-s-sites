@@ -60,8 +60,20 @@ body {
   overflow: hidden;
 }
 
-.primary-content {
+article {
   background-color: yellow;
+  border-radius: 7px;
+  border-style: solid;
+}
+
+nav {
+  background-color: red;
+  border-radius: 7px;
+  border-style: solid;
+}
+
+aside {
+  background-color: blue;
   border-radius: 7px;
   border-style: solid;
 }
